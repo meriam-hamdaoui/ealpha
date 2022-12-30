@@ -4,6 +4,7 @@ import Home from "./views/Home";
 import Dashboard from "./views/Dashboard";
 import MyLessons from "./views/MyLessons";
 import Header from "./components/header/Header";
+import FooterSection from "./components/footer/FooterSection";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           <Route path="lessons" element={<MyLessons />} />
         </Routes>
       </div>
+      <FooterSection />
     </div>
   );
 };

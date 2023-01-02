@@ -9,8 +9,8 @@ const OtherServices = () => {
       {[
         "/media/frontend/build/1124/assets/images/alpha_learning_white.svg",
         "/media/frontend/build/1124/assets/images/e_alpha_inst_white.svg",
-      ].map((el) => (
-        <div className="mat-list-item">
+      ].map((el, index) => (
+        <div className="mat-list-item" key={index}>
           <div className="mat-list-item-content">
             <div className="mat-list-item-ripple mat-ripple" mat-ripple></div>
             <div className="mat-list-text">

@@ -1,0 +1,19 @@
+section.lesson-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.lesson-card {
+  width: 18rem;
+  text-align: center;
+  background-color: #2196f3;
+  color: #fff;
+  padding-top: 20px;
+}
+.lesson-card-title {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  /* color: rgba(0, 0, 0, 0.87); */
+  font-size: 24px;
+  font-weight: 400;
+  display: block;
+  margin-bottom: 16px;
+}

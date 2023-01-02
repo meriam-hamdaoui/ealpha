@@ -7,8 +7,8 @@ const Company = () => {
         Company
       </h3>
 
-      {["About us", "Contact us"].map((el) => (
-        <div className="mat-list-item">
+      {["About us", "Contact us"].map((el, index) => (
+        <div className="mat-list-item" key={index}>
           <div className="mat-list-item-content">
             <div
               className="mat-list-item-ripple mat-ripple"

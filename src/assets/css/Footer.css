@@ -5,14 +5,14 @@ footer .footer-copyright {
   color: #cacaca;
   font-weight: 500;
 }
-
 .mdl-grid {
-  display: -webkit-flex;
-  display: -ms-flexbox;
+  /* display: -webkit-flex;
+  display: -ms-flexbox;*/
   display: flex;
-  -webkit-flex-flow: row wrap;
+
+  /*-webkit-flex-flow: row wrap;
   -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
+  flex-flow: row wrap; */
   margin: 0 auto;
   -webkit-align-items: stretch;
   -ms-flex-align: stretch;
@@ -23,6 +23,229 @@ footer .footer-copyright {
 .mdl-cell {
   box-sizing: border-box;
 }
+footer .footer-first-column img.footer__logo {
+  width: 200px;
+  max-width: 100%;
+  height: 73.7px;
+}
+.mat-list[dense],
+.mat-nav-list[dense],
+.mat-selection-list[dense] {
+  padding-top: 4px;
+  display: block;
+}
+.mat-list,
+.mat-nav-list,
+.mat-selection-list {
+  padding-top: 8px;
+  display: block;
+}
+.mat-list[dense] .mat-subheader:first-child,
+.mat-nav-list[dense] .mat-subheader:first-child,
+.mat-selection-list[dense] .mat-subheader:first-child {
+  margin-top: -4px;
+}
+.mat-list[dense] .mat-subheader,
+.mat-nav-list[dense] .mat-subheader,
+.mat-selection-list[dense] .mat-subheader {
+  height: 40px;
+  line-height: 8px;
+}
+.mat-list .mat-subheader:first-child,
+.mat-nav-list .mat-subheader:first-child,
+.mat-selection-list .mat-subheader:first-child {
+  margin-top: -8px;
+}
+.mat-list[dense] .mat-subheader,
+.mat-nav-list[dense] .mat-subheader,
+.mat-selection-list[dense] .mat-subheader {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+}
+footer h3 {
+  font-size: 18px !important;
+  line-height: 20px;
+}
+footer .footer-second-column h3[mat-subheader] {
+  color: #2196f3;
+}
+footer .footer-third-column h3[mat-subheader] {
+  color: #e91e63;
+}
+footer .footer-fourth-column h3[mat-subheader] {
+  color: #4caf50;
+}
+
+.mat-list .mat-subheader,
+.mat-nav-list .mat-subheader,
+.mat-selection-list .mat-subheader {
+  height: 48px;
+  line-height: 16px;
+}
+.mat-list .mat-subheader,
+.mat-nav-list .mat-subheader,
+.mat-selection-list .mat-subheader {
+  margin: 0;
+}
+.mat-list .mat-subheader,
+.mat-nav-list .mat-subheader,
+.mat-selection-list .mat-subheader {
+  color: rgba(0, 0, 0, 0.54);
+}
+.mat-list .mat-subheader,
+.mat-nav-list .mat-subheader,
+.mat-selection-list .mat-subheader {
+  font-size: 14px;
+  font-weight: 500;
+}
+.mat-subheader {
+  display: flex;
+  box-sizing: border-box;
+  padding: 16px;
+  align-items: center;
+}
+
+.mat-list[dense] .mat-list-item,
+.mat-list[dense] .mat-list-option,
+.mat-nav-list[dense] .mat-list-item,
+.mat-nav-list[dense] .mat-list-option,
+.mat-selection-list[dense] .mat-list-item,
+.mat-selection-list[dense] .mat-list-option {
+  display: block;
+  height: 40px;
+}
+.mat-list[dense] .mat-list-item,
+.mat-list[dense] .mat-list-item .mat-line:nth-child(n + 2),
+.mat-list[dense] .mat-list-option,
+.mat-list[dense] .mat-list-option .mat-line:nth-child(n + 2),
+.mat-nav-list[dense] .mat-list-item,
+.mat-nav-list[dense] .mat-list-item .mat-line:nth-child(n + 2),
+.mat-nav-list[dense] .mat-list-option,
+.mat-nav-list[dense] .mat-list-option .mat-line:nth-child(n + 2),
+.mat-selection-list[dense] .mat-list-item,
+.mat-selection-list[dense] .mat-list-item .mat-line:nth-child(n + 2),
+.mat-selection-list[dense] .mat-list-option,
+.mat-selection-list[dense] .mat-list-option .mat-line:nth-child(n + 2) {
+  font-size: 12px;
+}
+.mat-list .mat-list-item,
+.mat-list .mat-list-option,
+.mat-nav-list .mat-list-item,
+.mat-nav-list .mat-list-option,
+.mat-selection-list .mat-list-item,
+.mat-selection-list .mat-list-option {
+  display: block;
+  height: 48px;
+}
+.mat-list .mat-list-item,
+.mat-list .mat-list-option,
+.mat-nav-list .mat-list-item,
+.mat-nav-list .mat-list-option,
+.mat-selection-list .mat-list-item,
+.mat-selection-list .mat-list-option {
+  color: rgba(0, 0, 0, 0.87);
+}
+.mat-list .mat-list-item,
+.mat-nav-list .mat-list-item,
+.mat-selection-list .mat-list-item {
+  font-size: 16px;
+}
+.mat-list .mat-subheader,
+.mat-list-item,
+.mat-list-option,
+.mat-nav-list .mat-subheader,
+.mat-option,
+.mat-selection-list .mat-subheader,
+.mat-tooltip {
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.mat-list[dense] .mat-list-item .mat-list-item-content,
+.mat-list[dense] .mat-list-option .mat-list-item-content,
+.mat-nav-list[dense] .mat-list-item .mat-list-item-content,
+.mat-nav-list[dense] .mat-list-option .mat-list-item-content,
+.mat-selection-list[dense] .mat-list-item .mat-list-item-content,
+.mat-selection-list[dense] .mat-list-option .mat-list-item-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 16px;
+  position: relative;
+  height: inherit;
+}
+.mat-list[dense] .mat-list-item .mat-list-item-ripple,
+.mat-list[dense] .mat-list-option .mat-list-item-ripple,
+.mat-nav-list[dense] .mat-list-item .mat-list-item-ripple,
+.mat-nav-list[dense] .mat-list-option .mat-list-item-ripple,
+.mat-selection-list[dense] .mat-list-item .mat-list-item-ripple,
+.mat-selection-list[dense] .mat-list-option .mat-list-item-ripple {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  pointer-events: none;
+}
+.mat-list[dense] .mat-list-item .mat-list-text:nth-child(2),
+.mat-list[dense] .mat-list-option .mat-list-text:nth-child(2),
+.mat-nav-list[dense] .mat-list-item .mat-list-text:nth-child(2),
+.mat-nav-list[dense] .mat-list-option .mat-list-text:nth-child(2),
+.mat-selection-list[dense] .mat-list-item .mat-list-text:nth-child(2),
+.mat-selection-list[dense] .mat-list-option .mat-list-text:nth-child(2) {
+  padding: 0;
+}
+.mat-list[dense] .mat-list-item .mat-list-text,
+.mat-list[dense] .mat-list-option .mat-list-text,
+.mat-nav-list[dense] .mat-list-item .mat-list-text,
+.mat-nav-list[dense] .mat-list-option .mat-list-text,
+.mat-selection-list[dense] .mat-list-item .mat-list-text,
+.mat-selection-list[dense] .mat-list-option .mat-list-text {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding: 0 16px;
+}
+.mat-list[dense] .mat-list-item .mat-list-text > *,
+.mat-list[dense] .mat-list-option .mat-list-text > *,
+.mat-nav-list[dense] .mat-list-item .mat-list-text > *,
+.mat-nav-list[dense] .mat-list-option .mat-list-text > *,
+.mat-selection-list[dense] .mat-list-item .mat-list-text > *,
+.mat-selection-list[dense] .mat-list-option .mat-list-text > * {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: inherit;
+}
+.mat-grid-tile-footer .mat-line,
+.mat-grid-tile-header .mat-line,
+.mat-list .mat-list-item .mat-line,
+.mat-list .mat-list-option .mat-line,
+.mat-list[dense] .mat-list-item .mat-line,
+.mat-list[dense] .mat-list-option .mat-line,
+.mat-nav-list .mat-list-item .mat-line,
+.mat-nav-list .mat-list-option .mat-line,
+.mat-nav-list[dense] .mat-list-item .mat-line,
+.mat-nav-list[dense] .mat-list-option .mat-line,
+.mat-selection-list .mat-list-item .mat-line,
+.mat-selection-list .mat-list-option .mat-line,
+.mat-selection-list[dense] .mat-list-item .mat-line,
+.mat-selection-list[dense] .mat-list-option .mat-line {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: block;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+footer a.mat-line {
+  color: #cacaca;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  text-decoration: none;
+}
+/* responsive footer */
 @media (min-width: 840px) {
   .mdl-grid {
     padding: 8px;

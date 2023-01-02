@@ -2,9 +2,12 @@ import React from "react";
 
 const Company = () => {
   return (
-    <div className="mdl-cell mdl-cell--3-col footer-second-column">
-      <div className="mat-list">
-        <h3>Company</h3>
+    <div className="mat-list" dense>
+      <h3 className="mat-subheader" mat-subheader style={{ color: "#2196F3" }}>
+        Company
+      </h3>
+
+      {["About us", "Contact us"].map((el) => (
         <div className="mat-list-item">
           <div className="mat-list-item-content">
             <div
@@ -13,41 +16,25 @@ const Company = () => {
             ></div>
             <div className="mat-list-text">
               <a className="mat-line" href="/" mat-line="">
-                About us
+                {el}
               </a>
             </div>
           </div>
         </div>
-        {/*  */}
-        <div className="mat-list-item">
-          <div className="mat-list-item-content">
-            <div
-              className="mat-list-item-ripple mat-ripple"
-              mat-ripple=""
-            ></div>
-            <div className="mat-list-text">
-              <a className="mat-line" href="/" mat-line="">
-                Contact us
-              </a>
-            </div>
+      ))}
+      <hr style={{ border: "1px transparent" }} />
+      <div className="mat-list-item">
+        <div className="mat-list-item-content">
+          <div className="mat-list-item-ripple mat-ripple" mat-ripple=""></div>
+          <div className="mat-list-text">
+            <a className="mat-line" href="/" mat-line="">
+              Find us on:
+            </a>
           </div>
         </div>
-        {/*  */}
-        <div className="mat-list-item">
-          <div className="mat-list-item-content">
-            <div
-              className="mat-list-item-ripple mat-ripple"
-              mat-ripple=""
-            ></div>
-            <div className="mat-list-text">
-              <a className="mat-line" href="/" mat-line="">
-                Find us on:
-              </a>
-            </div>
-          </div>
-        </div>
-        {/*  */}
-        <div className="footer-social__wrapper mat-list-item">
+      </div>
+      {/*  */}
+      {/* <div className="footer-social__wrapper mat-list-item">
           <div className="mat-list-item-content">
             <div
               className="mat-list-item-ripple mat-ripple"
@@ -148,8 +135,7 @@ const Company = () => {
               </span>
             </div>
           </div>
-        </div>
-      </div>
+        </div> */}
     </div>
   );
 };

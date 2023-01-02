@@ -1,6 +1,8 @@
 import React from "react";
 import "../../assets/css/Footer.css";
 import Company from "./Company";
+import OtherServices from "./OtherServices";
+import Support from "./Support";
 
 const FooterSection = () => {
   return (
@@ -22,9 +24,15 @@ const FooterSection = () => {
             and e-learning technology provider.
           </p>
         </div>
-        <Company />
-        <div className="mdl-cell mdl-cell--3-col footer-third-column"></div>
-        <div className="mdl-cell mdl-cell--3-col footer-fourth-column"></div>
+        <div className="mdl-cell mdl-cell--3-col footer-second-column">
+          <Company />
+        </div>
+        <div className="mdl-cell mdl-cell--3-col footer-third-column">
+          <Support />
+        </div>
+        <div className="mdl-cell mdl-cell--3-col footer-fourth-column">
+          <OtherServices />
+        </div>
       </div>
       <div className="footer-copyright">
         <span>Copyright © 2018-2022 Alpha Publishing</span>
